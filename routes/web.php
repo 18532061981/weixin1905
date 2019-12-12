@@ -17,3 +17,22 @@ Route::get('/', function () {
 /*微信开发*/
 Route::get('/wx','Wx\WeixinController@wechat');
 Route::post('/wx','Wx\WeixinController@receiv');
+
+Route::get('info',function(){
+    phpInfo();
+});
+
+
+
+
+
+Route::get('/GetuserInfo','Wx\WeixinController@GetuserInfo');//微信方法
+
+
+
+/*微信开发*/
+Route::get('/wx','Wx\WeixinController@wxchat');
+/*接收用户的推送事件*/
+Route::post('/wx','Wx\WeixinController@receiv');
+
+Route::get('/test/xml','Test\TestController@xmlTest');
