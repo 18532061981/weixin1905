@@ -36,11 +36,10 @@ class WeixinController extends Controller
      */
 
 
-    public function receic(){
+    public function receiv(){
         $log_file = "wx.log";
     //将接收的数据记录到日志文件
-        $xml = file_get_contents("php://index");
-        $data =data('Y-m-d H:i:s') . $xml;
+        $data =json_encode($_POST);
         file_put_contents($log_file,$data,FILE_APPEND);
 
     }
