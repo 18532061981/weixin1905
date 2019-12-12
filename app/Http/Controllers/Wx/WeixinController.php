@@ -31,6 +31,32 @@ class WeixinController extends Controller
         }
     }
 
+    /**
+     * 接收微信推送事件
+     */
+
+
+    public function receic(){
+        $log_file = "wx.log";
+    //将接收的数据记录到日志文件
+        $data = json_encode($_POST);
+        file_put_contents($log_file,$data,FILE_APPEND);
+
+    }
+
+
+
+
+    /**
+     * 获取用户基本信息
+     */
+
+    public function getUserInfo(){
+
+        $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN';
+
+    }
+
 
 
 
