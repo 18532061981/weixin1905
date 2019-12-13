@@ -49,7 +49,7 @@
       <file leaf-file-name="TextController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Text/TextController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-11.941176">
               <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding>
                 <marker date="1576152346415" expanded="true" signature="215:484" placeholder="..." />
@@ -61,9 +61,12 @@
       <file leaf-file-name="WeixinController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.715749">
-              <caret line="75" column="121" selection-start-line="75" selection-start-column="114" selection-end-line="75" selection-end-column="121" />
-              <folding />
+            <state vertical-scroll-proportion="0.6005057">
+              <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+              <folding>
+                <marker date="1576224132281" expanded="true" signature="2391:2595" placeholder="..." />
+                <marker date="1576224132281" expanded="true" signature="2391:2627" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -106,9 +109,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="添加" />
@@ -301,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59381896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -362,7 +366,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1576224132281" expanded="true" signature="2391:2595" placeholder="..." />
+            <marker date="1576224132281" expanded="true" signature="2391:2627" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -376,7 +383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Text/TextController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-11.941176">
           <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <marker date="1576152346415" expanded="true" signature="215:484" placeholder="..." />
@@ -387,16 +394,19 @@
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.715749">
-          <caret line="75" column="121" selection-start-line="75" selection-start-column="114" selection-end-line="75" selection-end-column="121" />
-          <folding />
+        <state vertical-scroll-proportion="0.6005057">
+          <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+          <folding>
+            <marker date="1576224132281" expanded="true" signature="2391:2595" placeholder="..." />
+            <marker date="1576224132281" expanded="true" signature="2391:2627" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
