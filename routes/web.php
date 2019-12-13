@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/text/xml','Text\TextController@xmlText');
+
+
 /*微信开发*/
 Route::get('/wx','Wx\WeixinController@wechat');
 Route::post('/wx','Wx\WeixinController@receiv');
+
+
