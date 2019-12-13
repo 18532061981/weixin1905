@@ -61,8 +61,8 @@
       <file leaf-file-name="WeixinController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6005057">
-              <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.8217446">
+              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
               <folding>
                 <marker date="1576224132281" expanded="true" signature="2391:2595" placeholder="..." />
                 <marker date="1576224132281" expanded="true" signature="2391:2627" placeholder="..." />
@@ -401,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6005057">
-          <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.8217446">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
           <folding>
             <marker date="1576224132281" expanded="true" signature="2391:2595" placeholder="..." />
             <marker date="1576224132281" expanded="true" signature="2391:2627" placeholder="..." />
