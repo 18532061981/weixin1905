@@ -75,8 +75,20 @@ class WeixinController extends Controller
                 $openid = $xml_obj->FromUserName;  //获取用户的opendi
                 $u = WxUserModel::where(['openid'=>$openid])->first();
                 if($u){
-                    echo "欢迎回来";die;
+                    $msg = '欢迎回来';
+                    $xml = '<xml>
+  <ToUserName><![CDATA['.$openid.']]></ToUserName>
+  <FromUserName><![CDATA['.$xml_obj->ToUserName.']]></FromUserName>
+  <CreateTime>'.time().'</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA['.$msg.']]></Content>
+</xml>';
+                    echo $xml;
                 }else{
+                    //获取用户信息 zcza
+                    $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$this->access_token.'&openid='.$openid.'&lang=zh_CN';
+                    $user_info = file_get_contents($url);       //
+                    $u = json_decode($user_info,true);
                     $user_data = [
                         'openid'   => $openid,
                         'subscribe_time' => $xml_obj->CreateTime,  //关注时间
