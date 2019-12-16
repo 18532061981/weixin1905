@@ -8,4 +8,5 @@ class WxUserModel extends Model
 {
     //
     protected $table = 'wx_users';
+    protected $primaryKey = 'uid';
 }
