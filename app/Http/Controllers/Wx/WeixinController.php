@@ -73,8 +73,8 @@ class WeixinController extends Controller
 
         //入库 其他逻辑
          $event = $xml_obj->Event ;//获取事件类型
+        $openid = $xml_obj->FromUserName;  //获取用户的opendi
             if($event=='subscribe') {
-                $openid = $xml_obj->FromUserName;  //获取用户的opendi
                 $u = WxUserModel::where(['openid'=>$openid])->first();
                 if($u){
                     $msg = '欢迎回来';
@@ -117,6 +117,26 @@ class WeixinController extends Controller
                 $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$this->access_token.'&openid='.$openid.'&lang=zh_CN';
                 $user_info = file_get_contents($url);
                 file_put_contents('wx_user.log', $user_info, FILE_APPEND);
+            }elseif($event=='CLICK'){           // 菜单点击事件
+                if($xml_obj->EventKey=='weather'){
+                    //如果是 获取天气
+                    //请求第三方接口 获取天气
+                    $weather_api = 'https://free-api.heweather.net/s6/weather/now?location=beijing&key=d957029d5931428f8eef6ba241aefdd7';
+                    $weather_info = file_get_contents($weather_api);
+                    $weather_info_arr = json_decode($weather_info,true);
+                    $cond_txt = $weather_info_arr['HeWeather6'][0]['now']['cond_txt'];
+                    $tmp = $weather_info_arr['HeWeather6'][0]['now']['tmp'];
+                    $wind_dir = $weather_info_arr['HeWeather6'][0]['now']['wind_dir'];
+                    $msg = $cond_txt . ' 温度： '.$tmp . ' 风向： '. $wind_dir;
+                    $response_xml = '<xml>
+  <ToUserName><![CDATA['.$openid.']]></ToUserName>
+  <FromUserName><![CDATA['.$xml_obj->ToUserName.']]></FromUserName>
+  <CreateTime>'.time().'</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA['. date('Y-m-d H:i:s') .  $msg .']]></Content>
+</xml>';
+                    echo $response_xml;
+                }
             }
         //判断消息类型
         $msg_type = $xml_obj->MsgType;
