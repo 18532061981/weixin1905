@@ -14,6 +14,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Controllers/WxUserController.php" afterPath="$PROJECT_DIR$/app/Admin/Controllers/WxUserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/routes.php" afterPath="$PROJECT_DIR$/app/Admin/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Text/TextController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Text/TextController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/WxUserModel.php" afterPath="$PROJECT_DIR$/app/Model/WxUserModel.php" />
@@ -54,11 +55,19 @@
       <file leaf-file-name="VoteController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22123894">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <marker date="1576664741759" expanded="true" signature="151:208" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.85335016">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +75,8 @@
       <file leaf-file-name="WeixinController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.520548">
-              <caret line="207" column="135" selection-start-line="207" selection-start-column="135" selection-end-line="207" selection-end-column="135" />
+            <state vertical-scroll-proportion="-5.9315066">
+              <caret line="206" column="33" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="33" />
               <folding>
                 <element signature="e#43#79#0#PHP" expanded="true" />
                 <marker date="1576659456447" expanded="true" signature="2019:2044" placeholder="..." />
@@ -608,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -684,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.520548">
-          <caret line="207" column="135" selection-start-line="207" selection-start-column="135" selection-end-line="207" selection-end-column="135" />
+        <state vertical-scroll-proportion="-5.9315066">
+          <caret line="206" column="33" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="33" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
             <marker date="1576659456447" expanded="true" signature="2019:2044" placeholder="..." />
@@ -698,13 +700,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22123894">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1576664741759" expanded="true" signature="151:208" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.85335016">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
