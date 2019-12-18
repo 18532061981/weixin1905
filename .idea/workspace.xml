@@ -51,30 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WeixinController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.04878">
-              <caret line="128" column="86" selection-start-line="128" selection-start-column="86" selection-end-line="128" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.6409575">
+              <caret line="204" column="157" selection-start-line="204" selection-start-column="157" selection-end-line="204" selection-end-column="157" />
               <folding>
                 <element signature="e#43#79#0#PHP" expanded="true" />
-                <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-                <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-                <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-                <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-                <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-                <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+                <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+                <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+                <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+                <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+                <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+                <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73198485">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,8 +95,8 @@
         <option value="$PROJECT_DIR$/app/Admin/Controllers/WxUserController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php" />
       </list>
     </option>
   </component>
@@ -302,12 +292,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -325,12 +315,12 @@
           <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -378,12 +368,12 @@
           <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -431,12 +421,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -477,12 +467,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -523,12 +513,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -613,27 +603,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.04878">
-          <caret line="128" column="86" selection-start-line="128" selection-start-column="86" selection-end-line="128" selection-end-column="86" />
-          <folding>
-            <element signature="e#43#79#0#PHP" expanded="true" />
-            <marker date="1576648325153" expanded="true" signature="2019:2044" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="2019:2263" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="3148:3392" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="4559:4828" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5438" placeholder="..." />
-            <marker date="1576648325153" expanded="true" signature="5234:5470" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.63716817">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wx/WeixinController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73198485">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.6409575">
+          <caret line="204" column="157" selection-start-line="204" selection-start-column="157" selection-end-line="204" selection-end-column="157" />
+          <folding>
+            <element signature="e#43#79#0#PHP" expanded="true" />
+            <marker date="1576657774299" expanded="true" signature="2019:2044" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="2019:2263" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="3148:3392" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="4559:4828" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5438" placeholder="..." />
+            <marker date="1576657774299" expanded="true" signature="5234:5470" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

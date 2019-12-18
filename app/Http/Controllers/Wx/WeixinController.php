@@ -199,7 +199,11 @@ class WeixinController extends Controller
                     'type'  => 'click',
                     'name'  => '获取天气',
                     'key'   => 'weather'
-                ],
+                ],[
+                    'type'  => 'view',
+                    'name' => '首页',
+                    'url' => 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa4148d6e658baa85&redirect_uri='.urlencode('http://es1905.qxywzc.cn/').'&response_type=code&scope=snsapi_userinfo#wechat_redirect '
+                ]
             ]
         ];
         $menu_json = json_encode($menu,JSON_UNESCAPED_UNICODE);
