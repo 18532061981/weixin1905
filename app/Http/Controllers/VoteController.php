@@ -15,7 +15,7 @@ class VoteController extends Controller
         //获取access_token
         $data = $this->getAccessToken($code);
         //获取用户信息
-        $user_info = $this->getUserInfo($data['access_token'],$data['openid']);
+        $user_info = $this->getUserInfo($data['access_token'],$data['openid']); //获取用户信息
 
         //处理业务逻辑
 
