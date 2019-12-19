@@ -207,6 +207,7 @@ class WeixinController extends Controller
                     'name' => '投票',
                     'url' => 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa4148d6e658baa85&redirect_uri='.$redirect_uri.'&response_type=code&scope=snsapi_userinfo#wechat_redirect '
                 ]
+
             ]
         ];
         $menu_json = json_encode($menu,JSON_UNESCAPED_UNICODE);
