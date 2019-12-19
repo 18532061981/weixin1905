@@ -15,7 +15,7 @@
     return view('welcome');
 });*/
 
-Route::get('/','Index\IndexController@index');  //网站首页
+Route::get('/','Index\IndexController@index');  //网站首页展示
 
 
 

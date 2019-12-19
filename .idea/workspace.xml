@@ -37,6 +37,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user-comment.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/wishlist1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/wishlist2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/animate.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fakeLoader.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" />
@@ -107,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2528445">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -900,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2528445">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding />
         </state>
       </provider>
