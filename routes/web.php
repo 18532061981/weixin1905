@@ -35,3 +35,12 @@ Route::get('/wx/menu','Wx\WeixinController@createMenu');        //创建菜单
  */
 
 Route::get('/vote','VoteController@index');        //微信投票
+
+
+/**
+ * 详情页展示
+ */
+Route::prefix('single')->group(function(){
+    Route::get('single','Single\SingleController@single');   //详情页展示
+
+});
