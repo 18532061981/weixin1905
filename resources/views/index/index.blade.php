@@ -464,8 +464,14 @@
 			<div class="row">
 				<div class="col s6">
 					<div class="content">
-						<a href="{{url('single/single')}}"><img src="/img/product-new1.png" alt=""></a>
-						<h6><a href="">Fashion Men's</a></h6>
+						<a href="{{url('single/single')}}">
+							<img src="/img/product-new1.png" alt="">
+						</a>
+						<h6>
+							<a href="{{url('single/single')}}">
+								Fashion Men's
+							</a>
+						</h6>
 						<div class="price">
 							$20 <span>$28</span>
 						</div>

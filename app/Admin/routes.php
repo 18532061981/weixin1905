@@ -11,6 +11,11 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('admin.home');
-    $router->resource('users',WxUserController::class);
+    $router->resource('users',WxUserController::class);    //微信用户展示
+
+
+
+
+    $router->resource('goods',GoodsController::class);     //商品信息管理
 
 });
