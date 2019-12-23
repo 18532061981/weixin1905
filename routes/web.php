@@ -28,6 +28,7 @@ Route::get('/wx','Wx\WeixinController@wechat');
 Route::post('/wx','Wx\WeixinController@receiv');
 Route::get('/wx/flush/access_token','Wx\WeixinController@flushAccessToken');        //刷新access_token
 Route::get('/wx/menu','Wx\WeixinController@createMenu');        //创建菜单
+Route::get('/wx/qrcode','Wx\WxQRController@qrcode');        //创建有参数的临时二维码
 
 
 /**
